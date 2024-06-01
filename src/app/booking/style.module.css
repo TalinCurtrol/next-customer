@@ -1,0 +1,11 @@
+.timeSlotsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.timeSlotItem {
+  flex-basis: calc(25% - 10px); /* 每行显示四个时间段，设置为 25% */
+  margin-bottom: 10px;
+}
